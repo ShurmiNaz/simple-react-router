@@ -1,0 +1,22 @@
+.nav-style {
+     background-color: black;
+     padding: 20px 10px;
+     font-size: 20px;
+     color: #ddd;
+     display: flax;
+
+}
+
+.nav-link {
+     text-decoration: none;
+     color: white;
+     margin: 10px;
+}
+
+.nav-link:hover {
+     color: yellow;
+}
+
+nav .active {
+     color: red;
+}

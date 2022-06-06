@@ -1,0 +1,15 @@
+.friend-style {
+     border: 5px solid rgb(45, 5, 119);
+     background-color: white;
+     color: black;
+     border-radius: 5px;
+}
+
+.button-style {
+     background-color: rgb(185, 3, 3);
+     color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     font-size: 20px;
+     border-radius: 10px;
+}
