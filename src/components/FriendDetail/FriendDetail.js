@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import './FriendDetail.css';
 
 const FriendDetail = () => {
      const { userId } = useParams();
@@ -15,7 +16,7 @@ const FriendDetail = () => {
 
 
      return (
-          <div>
+          <div className='friend-style'>
                <h3> friend id coming soon {userId}</h3>
                <h1> name : {friend.name}</h1>
                <p> email :  {friend.email}</p>
